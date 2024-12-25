@@ -24,6 +24,15 @@
 		EC8D53332D1946F4004C0368 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8D53322D1946F4004C0368 /* Post.swift */; };
 		EC8D53352D1966AE004C0368 /* DownloadCombineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8D53342D1966AE004C0368 /* DownloadCombineView.swift */; };
 		EC8D53372D1966C0004C0368 /* DownloadCombineViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8D53362D1966C0004C0368 /* DownloadCombineViewModel.swift */; };
+		EC8D53392D1A495E004C0368 /* DownloadAsyncViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8D53382D1A495E004C0368 /* DownloadAsyncViewModel.swift */; };
+		ECAAC92A2D1A85F60099ACFA /* CoreDataMVVMView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAAC9292D1A85F60099ACFA /* CoreDataMVVMView.swift */; };
+		ECAAC92C2D1A86050099ACFA /* CoreDataMVVMViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAAC92B2D1A86050099ACFA /* CoreDataMVVMViewModel.swift */; };
+		ECAAC92F2D1A86740099ACFA /* FruitsContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ECAAC92D2D1A86740099ACFA /* FruitsContainer.xcdatamodeld */; };
+		ECAAC9312D1A9E290099ACFA /* CoreDataRelationshipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAAC9302D1A9E290099ACFA /* CoreDataRelationshipsView.swift */; };
+		ECAAC9332D1A9E3D0099ACFA /* CoreDataRelationshipsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAAC9322D1A9E3D0099ACFA /* CoreDataRelationshipsViewModel.swift */; };
+		ECAAC9362D1A9F260099ACFA /* CoreDataContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ECAAC9342D1A9F260099ACFA /* CoreDataContainer.xcdatamodeld */; };
+		ECAAC9382D1B812B0099ACFA /* FileManagerBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAAC9372D1B812B0099ACFA /* FileManagerBootcamp.swift */; };
+		ECAAC93A2D1B81A00099ACFA /* FileManagerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAAC9392D1B81A00099ACFA /* FileManagerViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +55,15 @@
 		EC8D53322D1946F4004C0368 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		EC8D53342D1966AE004C0368 /* DownloadCombineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadCombineView.swift; sourceTree = "<group>"; };
 		EC8D53362D1966C0004C0368 /* DownloadCombineViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadCombineViewModel.swift; sourceTree = "<group>"; };
+		EC8D53382D1A495E004C0368 /* DownloadAsyncViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadAsyncViewModel.swift; sourceTree = "<group>"; };
+		ECAAC9292D1A85F60099ACFA /* CoreDataMVVMView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataMVVMView.swift; sourceTree = "<group>"; };
+		ECAAC92B2D1A86050099ACFA /* CoreDataMVVMViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataMVVMViewModel.swift; sourceTree = "<group>"; };
+		ECAAC92E2D1A86740099ACFA /* FruitsContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FruitsContainer.xcdatamodel; sourceTree = "<group>"; };
+		ECAAC9302D1A9E290099ACFA /* CoreDataRelationshipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataRelationshipsView.swift; sourceTree = "<group>"; };
+		ECAAC9322D1A9E3D0099ACFA /* CoreDataRelationshipsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataRelationshipsViewModel.swift; sourceTree = "<group>"; };
+		ECAAC9352D1A9F260099ACFA /* CoreDataContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataContainer.xcdatamodel; sourceTree = "<group>"; };
+		ECAAC9372D1B812B0099ACFA /* FileManagerBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManagerBootcamp.swift; sourceTree = "<group>"; };
+		ECAAC9392D1B81A00099ACFA /* FileManagerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManagerViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +96,8 @@
 		EC8D53092D16694A004C0368 /* mvvm-testing */ = {
 			isa = PBXGroup;
 			children = (
+				ECAAC9342D1A9F260099ACFA /* CoreDataContainer.xcdatamodeld */,
+				ECAAC92D2D1A86740099ACFA /* FruitsContainer.xcdatamodeld */,
 				EC8D531B2D1695DE004C0368 /* models */,
 				EC8D531A2D1695D1004C0368 /* view_models */,
 				EC8D53192D1695C9004C0368 /* views */,
@@ -106,6 +126,9 @@
 				EC8D532A2D193936004C0368 /* CodableView.swift */,
 				EC8D532E2D1944BE004C0368 /* DownloadJSON.swift */,
 				EC8D53342D1966AE004C0368 /* DownloadCombineView.swift */,
+				ECAAC9292D1A85F60099ACFA /* CoreDataMVVMView.swift */,
+				ECAAC9302D1A9E290099ACFA /* CoreDataRelationshipsView.swift */,
+				ECAAC9372D1B812B0099ACFA /* FileManagerBootcamp.swift */,
 			);
 			path = views;
 			sourceTree = "<group>";
@@ -119,6 +142,10 @@
 				EC8D532C2D193942004C0368 /* CodableViewModel.swift */,
 				EC8D53302D1944CD004C0368 /* DownloadJSONViewModel.swift */,
 				EC8D53362D1966C0004C0368 /* DownloadCombineViewModel.swift */,
+				EC8D53382D1A495E004C0368 /* DownloadAsyncViewModel.swift */,
+				ECAAC92B2D1A86050099ACFA /* CoreDataMVVMViewModel.swift */,
+				ECAAC9322D1A9E3D0099ACFA /* CoreDataRelationshipsViewModel.swift */,
+				ECAAC9392D1B81A00099ACFA /* FileManagerViewModel.swift */,
 			);
 			path = view_models;
 			sourceTree = "<group>";
@@ -203,15 +230,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC8D53372D1966C0004C0368 /* DownloadCombineViewModel.swift in Sources */,
+				ECAAC9382D1B812B0099ACFA /* FileManagerBootcamp.swift in Sources */,
 				EC8D53352D1966AE004C0368 /* DownloadCombineView.swift in Sources */,
 				EC8D53312D1944CD004C0368 /* DownloadJSONViewModel.swift in Sources */,
 				EC8D53292D191259004C0368 /* EscapingViewModel.swift in Sources */,
 				EC8D53252D1901B7004C0368 /* ThreadsViewModel.swift in Sources */,
 				EC8D531F2D16966C004C0368 /* content_view_model.swift in Sources */,
 				EC8D53332D1946F4004C0368 /* Post.swift in Sources */,
+				ECAAC92C2D1A86050099ACFA /* CoreDataMVVMViewModel.swift in Sources */,
+				ECAAC9362D1A9F260099ACFA /* CoreDataContainer.xcdatamodeld in Sources */,
+				ECAAC92A2D1A85F60099ACFA /* CoreDataMVVMView.swift in Sources */,
+				ECAAC9312D1A9E290099ACFA /* CoreDataRelationshipsView.swift in Sources */,
+				ECAAC93A2D1B81A00099ACFA /* FileManagerViewModel.swift in Sources */,
+				ECAAC92F2D1A86740099ACFA /* FruitsContainer.xcdatamodeld in Sources */,
 				EC8D532F2D1944BE004C0368 /* DownloadJSON.swift in Sources */,
 				EC8D53272D191232004C0368 /* EscapingView.swift in Sources */,
+				EC8D53392D1A495E004C0368 /* DownloadAsyncViewModel.swift in Sources */,
 				EC8D532B2D193936004C0368 /* CodableView.swift in Sources */,
+				ECAAC9332D1A9E3D0099ACFA /* CoreDataRelationshipsViewModel.swift in Sources */,
 				EC8D532D2D193942004C0368 /* CodableViewModel.swift in Sources */,
 				EC8D530D2D16694A004C0368 /* ContentView.swift in Sources */,
 				EC8D53232D1901A8004C0368 /* ThreadsView.swift in Sources */,
@@ -435,6 +471,29 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		ECAAC92D2D1A86740099ACFA /* FruitsContainer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				ECAAC92E2D1A86740099ACFA /* FruitsContainer.xcdatamodel */,
+			);
+			currentVersion = ECAAC92E2D1A86740099ACFA /* FruitsContainer.xcdatamodel */;
+			path = FruitsContainer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		ECAAC9342D1A9F260099ACFA /* CoreDataContainer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				ECAAC9352D1A9F260099ACFA /* CoreDataContainer.xcdatamodel */,
+			);
+			currentVersion = ECAAC9352D1A9F260099ACFA /* CoreDataContainer.xcdatamodel */;
+			path = CoreDataContainer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = EC8D52FF2D16694A004C0368 /* Project object */;
 }

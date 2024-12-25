@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct DownloadCombineView: View {
-    @StateObject private var vm = DownloadCombineViewModel()
+    @StateObject private var vm = DownloadAsyncViewModel()
     
     var body: some View {
         List {
