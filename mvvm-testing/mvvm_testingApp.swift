@@ -11,7 +11,7 @@ import SwiftUI
 struct mvvm_testingApp: App {
     var body: some Scene {
         WindowGroup {
-            FileManagerBootcamp()
+            CacheBootcamp()
         }
     }
 }

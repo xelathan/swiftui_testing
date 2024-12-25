@@ -33,6 +33,8 @@
 		ECAAC9362D1A9F260099ACFA /* CoreDataContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ECAAC9342D1A9F260099ACFA /* CoreDataContainer.xcdatamodeld */; };
 		ECAAC9382D1B812B0099ACFA /* FileManagerBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAAC9372D1B812B0099ACFA /* FileManagerBootcamp.swift */; };
 		ECAAC93A2D1B81A00099ACFA /* FileManagerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAAC9392D1B81A00099ACFA /* FileManagerViewModel.swift */; };
+		ECAAC93C2D1BCC450099ACFA /* CacheBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAAC93B2D1BCC450099ACFA /* CacheBootcamp.swift */; };
+		ECAAC93E2D1BCEA00099ACFA /* CacheViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAAC93D2D1BCEA00099ACFA /* CacheViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +66,8 @@
 		ECAAC9352D1A9F260099ACFA /* CoreDataContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataContainer.xcdatamodel; sourceTree = "<group>"; };
 		ECAAC9372D1B812B0099ACFA /* FileManagerBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManagerBootcamp.swift; sourceTree = "<group>"; };
 		ECAAC9392D1B81A00099ACFA /* FileManagerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManagerViewModel.swift; sourceTree = "<group>"; };
+		ECAAC93B2D1BCC450099ACFA /* CacheBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheBootcamp.swift; sourceTree = "<group>"; };
+		ECAAC93D2D1BCEA00099ACFA /* CacheViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +133,7 @@
 				ECAAC9292D1A85F60099ACFA /* CoreDataMVVMView.swift */,
 				ECAAC9302D1A9E290099ACFA /* CoreDataRelationshipsView.swift */,
 				ECAAC9372D1B812B0099ACFA /* FileManagerBootcamp.swift */,
+				ECAAC93F2D1BDE390099ACFA /* DowloadingImages */,
 			);
 			path = views;
 			sourceTree = "<group>";
@@ -146,6 +151,7 @@
 				ECAAC92B2D1A86050099ACFA /* CoreDataMVVMViewModel.swift */,
 				ECAAC9322D1A9E3D0099ACFA /* CoreDataRelationshipsViewModel.swift */,
 				ECAAC9392D1B81A00099ACFA /* FileManagerViewModel.swift */,
+				ECAAC93D2D1BCEA00099ACFA /* CacheViewModel.swift */,
 			);
 			path = view_models;
 			sourceTree = "<group>";
@@ -157,6 +163,14 @@
 				EC8D53322D1946F4004C0368 /* Post.swift */,
 			);
 			path = models;
+			sourceTree = "<group>";
+		};
+		ECAAC93F2D1BDE390099ACFA /* DowloadingImages */ = {
+			isa = PBXGroup;
+			children = (
+				ECAAC93B2D1BCC450099ACFA /* CacheBootcamp.swift */,
+			);
+			path = DowloadingImages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,6 +251,7 @@
 				EC8D53252D1901B7004C0368 /* ThreadsViewModel.swift in Sources */,
 				EC8D531F2D16966C004C0368 /* content_view_model.swift in Sources */,
 				EC8D53332D1946F4004C0368 /* Post.swift in Sources */,
+				ECAAC93C2D1BCC450099ACFA /* CacheBootcamp.swift in Sources */,
 				ECAAC92C2D1A86050099ACFA /* CoreDataMVVMViewModel.swift in Sources */,
 				ECAAC9362D1A9F260099ACFA /* CoreDataContainer.xcdatamodeld in Sources */,
 				ECAAC92A2D1A85F60099ACFA /* CoreDataMVVMView.swift in Sources */,
@@ -251,6 +266,7 @@
 				EC8D532D2D193942004C0368 /* CodableViewModel.swift in Sources */,
 				EC8D530D2D16694A004C0368 /* ContentView.swift in Sources */,
 				EC8D53232D1901A8004C0368 /* ThreadsView.swift in Sources */,
+				ECAAC93E2D1BCEA00099ACFA /* CacheViewModel.swift in Sources */,
 				EC8D531D2D1695ED004C0368 /* Item.swift in Sources */,
 				EC8D530B2D16694A004C0368 /* mvvm_testingApp.swift in Sources */,
 			);
